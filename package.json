@@ -1,0 +1,32 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "make s"
+  },
+  "dependencies": {
+    "backbone": "*",
+    "backbone-super-sync": "*",
+    "express": "*",
+    "heapdump": "^0.3.5",
+    "jade": "*",
+    "sharify": "*"
+  },
+  "devDependencies": {
+    "jquery": "*",
+    "browserify": "*",
+    "stylus": "*",
+    "jadeify": "*",
+    "browserify-dev-middleware": "*",
+    "should": "*",
+    "mocha": "*",
+    "sinon": "*",
+    "benv": "*",
+    "zombie": "*",
+    "html5": "*",
+    "sqwish": "*",
+    "uglify-js": "*",
+    "superagent": "*"
+  }
+}
