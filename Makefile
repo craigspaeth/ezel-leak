@@ -10,7 +10,11 @@ BIN = node_modules/.bin
 
 # Start the server
 s:
-	node index.js
+	foreman run node index.js
+
+# Ping the server in ~30rps
+ping:
+	foreman run node ping.js
 
 # Run all of the project-level tests, followed by app-level tests
 test: assets
