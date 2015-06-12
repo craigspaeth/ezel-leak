@@ -1,6 +1,6 @@
-// 
+//
 // Routes file that exports route handlers for ease of testing.
-// 
+//
 
 var Commits = require('../../collections/commits');
 

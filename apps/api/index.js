@@ -3,12 +3,12 @@
 //
 
 var express = require('express'),
-    fixture = require('./fixture.json');
+    fixture = require('./fixture');
 
 var app = module.exports = express();
 
 app.get('/repos/artsy/:repo/commits', function(req, res, next) {
   setTimeout(function() {
-    res.send(fixture)
+    res.send(fixture())
   }, Math.round(100 + Math.random() * 100));
 });

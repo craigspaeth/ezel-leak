@@ -1,6 +1,7 @@
-[
+module.exports = function() {
+return [
   {
-    "sha": "548051bf071302c33131fc8acf1d226ec0d54b8e",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Joey Aghion",
@@ -14,7 +15,7 @@
       },
       "message": "Mention that flux is no longer actively used",
       "tree": {
-        "sha": "015e5ccd062aa94a02cb1bce976366669a3b18c0",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/015e5ccd062aa94a02cb1bce976366669a3b18c0"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/548051bf071302c33131fc8acf1d226ec0d54b8e",
@@ -25,7 +26,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/548051bf071302c33131fc8acf1d226ec0d54b8e/comments",
     "author": {
       "login": "joeyAghion",
-      "id": 28120,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/28120?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/joeyAghion",
@@ -44,7 +45,7 @@
     },
     "committer": {
       "login": "joeyAghion",
-      "id": 28120,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/28120?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/joeyAghion",
@@ -63,14 +64,14 @@
     },
     "parents": [
       {
-        "sha": "973788bc985ce5e230c9bf3c3e89fbb3ef117ab2",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/973788bc985ce5e230c9bf3c3e89fbb3ef117ab2",
         "html_url": "https://github.com/artsy/flux/commit/973788bc985ce5e230c9bf3c3e89fbb3ef117ab2"
       }
     ]
   },
   {
-    "sha": "973788bc985ce5e230c9bf3c3e89fbb3ef117ab2",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Aaron Windsor",
@@ -84,7 +85,7 @@
       },
       "message": "Merge pull request #38 from macreery/fix-sync-timeouts\n\nFix /sync timeouts",
       "tree": {
-        "sha": "a7373e22914491a3b9038586bba5cab3e5014ec6",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/a7373e22914491a3b9038586bba5cab3e5014ec6"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/973788bc985ce5e230c9bf3c3e89fbb3ef117ab2",
@@ -95,7 +96,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/973788bc985ce5e230c9bf3c3e89fbb3ef117ab2/comments",
     "author": {
       "login": "aaw",
-      "id": 274931,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/274931?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/aaw",
@@ -114,7 +115,7 @@
     },
     "committer": {
       "login": "aaw",
-      "id": 274931,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/274931?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/aaw",
@@ -133,19 +134,19 @@
     },
     "parents": [
       {
-        "sha": "dd73e778bca7027fc9d6d02175a23c85c2da36cf",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/dd73e778bca7027fc9d6d02175a23c85c2da36cf",
         "html_url": "https://github.com/artsy/flux/commit/dd73e778bca7027fc9d6d02175a23c85c2da36cf"
       },
       {
-        "sha": "4eb1b77a05c03d3b29b0dc60f56dcd5a03751d71",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/4eb1b77a05c03d3b29b0dc60f56dcd5a03751d71",
         "html_url": "https://github.com/artsy/flux/commit/4eb1b77a05c03d3b29b0dc60f56dcd5a03751d71"
       }
     ]
   },
   {
-    "sha": "dd73e778bca7027fc9d6d02175a23c85c2da36cf",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Aaron Windsor",
@@ -159,7 +160,7 @@
       },
       "message": "Merge pull request #37 from macreery/master\n\nUnpin Gemfile and upgrade gems",
       "tree": {
-        "sha": "590410a4a4d7a4aa0b9a6a72ffa96502b5898d15",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/590410a4a4d7a4aa0b9a6a72ffa96502b5898d15"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/dd73e778bca7027fc9d6d02175a23c85c2da36cf",
@@ -170,7 +171,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/dd73e778bca7027fc9d6d02175a23c85c2da36cf/comments",
     "author": {
       "login": "aaw",
-      "id": 274931,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/274931?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/aaw",
@@ -189,7 +190,7 @@
     },
     "committer": {
       "login": "aaw",
-      "id": 274931,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/274931?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/aaw",
@@ -208,19 +209,19 @@
     },
     "parents": [
       {
-        "sha": "b3998c37435e748c81b339de25bf7161bf6dae96",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/b3998c37435e748c81b339de25bf7161bf6dae96",
         "html_url": "https://github.com/artsy/flux/commit/b3998c37435e748c81b339de25bf7161bf6dae96"
       },
       {
-        "sha": "96d16b090cadd4df5b533a4560135bfe2cd11ec7",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/96d16b090cadd4df5b533a4560135bfe2cd11ec7",
         "html_url": "https://github.com/artsy/flux/commit/96d16b090cadd4df5b533a4560135bfe2cd11ec7"
       }
     ]
   },
   {
-    "sha": "4eb1b77a05c03d3b29b0dc60f56dcd5a03751d71",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Frank Macreery",
@@ -234,7 +235,7 @@
       },
       "message": "Increase timeout on SyncDatabase task to avoid failures",
       "tree": {
-        "sha": "058f24274dd0334b940b91e540f79f8a2ce7937c",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/058f24274dd0334b940b91e540f79f8a2ce7937c"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/4eb1b77a05c03d3b29b0dc60f56dcd5a03751d71",
@@ -245,7 +246,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/4eb1b77a05c03d3b29b0dc60f56dcd5a03751d71/comments",
     "author": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -264,7 +265,7 @@
     },
     "committer": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -283,14 +284,14 @@
     },
     "parents": [
       {
-        "sha": "10ae2e08d6c77b24e886c79c87d858b87b34f0b6",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/10ae2e08d6c77b24e886c79c87d858b87b34f0b6",
         "html_url": "https://github.com/artsy/flux/commit/10ae2e08d6c77b24e886c79c87d858b87b34f0b6"
       }
     ]
   },
   {
-    "sha": "10ae2e08d6c77b24e886c79c87d858b87b34f0b6",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Frank Macreery",
@@ -304,7 +305,7 @@
       },
       "message": "Properly load config/app.yml to determine settings for Resque's web interface",
       "tree": {
-        "sha": "d9df65a00af0982662e7f3ca6d7d95eda01a5399",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/d9df65a00af0982662e7f3ca6d7d95eda01a5399"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/10ae2e08d6c77b24e886c79c87d858b87b34f0b6",
@@ -315,7 +316,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/10ae2e08d6c77b24e886c79c87d858b87b34f0b6/comments",
     "author": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -334,7 +335,7 @@
     },
     "committer": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -353,14 +354,14 @@
     },
     "parents": [
       {
-        "sha": "2a8f72b383daf5141b5da6cf18ca1b09d6aab2be",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/2a8f72b383daf5141b5da6cf18ca1b09d6aab2be",
         "html_url": "https://github.com/artsy/flux/commit/2a8f72b383daf5141b5da6cf18ca1b09d6aab2be"
       }
     ]
   },
   {
-    "sha": "96d16b090cadd4df5b533a4560135bfe2cd11ec7",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Frank Macreery",
@@ -374,7 +375,7 @@
       },
       "message": "Unpin Gemfile versions, and upgrade",
       "tree": {
-        "sha": "56460cb54257ef863e50be45bb3c2a6e4d926b63",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/56460cb54257ef863e50be45bb3c2a6e4d926b63"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/96d16b090cadd4df5b533a4560135bfe2cd11ec7",
@@ -385,7 +386,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/96d16b090cadd4df5b533a4560135bfe2cd11ec7/comments",
     "author": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -404,7 +405,7 @@
     },
     "committer": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -423,14 +424,14 @@
     },
     "parents": [
       {
-        "sha": "e33d956a4663ef11932a5c69eae2894fb8d241f0",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/e33d956a4663ef11932a5c69eae2894fb8d241f0",
         "html_url": "https://github.com/artsy/flux/commit/e33d956a4663ef11932a5c69eae2894fb8d241f0"
       }
     ]
   },
   {
-    "sha": "b3998c37435e748c81b339de25bf7161bf6dae96",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Aaron Windsor",
@@ -444,7 +445,7 @@
       },
       "message": "Merge pull request #36 from aaw/explicit-yaml-require\n\nExplicitly requiring the yaml library when needed",
       "tree": {
-        "sha": "b0903a631751197ea616344e7cbe94f8a11cf13b",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/b0903a631751197ea616344e7cbe94f8a11cf13b"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/b3998c37435e748c81b339de25bf7161bf6dae96",
@@ -455,7 +456,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/b3998c37435e748c81b339de25bf7161bf6dae96/comments",
     "author": {
       "login": "aaw",
-      "id": 274931,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/274931?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/aaw",
@@ -474,7 +475,7 @@
     },
     "committer": {
       "login": "aaw",
-      "id": 274931,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/274931?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/aaw",
@@ -493,19 +494,19 @@
     },
     "parents": [
       {
-        "sha": "e33d956a4663ef11932a5c69eae2894fb8d241f0",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/e33d956a4663ef11932a5c69eae2894fb8d241f0",
         "html_url": "https://github.com/artsy/flux/commit/e33d956a4663ef11932a5c69eae2894fb8d241f0"
       },
       {
-        "sha": "010c6fac400dfd70d9fd6472f2a62a8ae7961b2f",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/010c6fac400dfd70d9fd6472f2a62a8ae7961b2f",
         "html_url": "https://github.com/artsy/flux/commit/010c6fac400dfd70d9fd6472f2a62a8ae7961b2f"
       }
     ]
   },
   {
-    "sha": "010c6fac400dfd70d9fd6472f2a62a8ae7961b2f",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Aaron Windsor",
@@ -519,7 +520,7 @@
       },
       "message": "Explicitly requiring the yaml library when needed\n\nWe were pulling YAML in from somewhere, because this code used to\nwork. Somewhere between ruby-1.9.3-p194 and ruby-1.9.3-p286,\nsomething changed that necessitates us explicitly requiring 'yaml'.\n\nThe default install for the chef cookbook I want to upgrade us to\nis ruby-1.9.3-p327, which is why I came across this.",
       "tree": {
-        "sha": "79d786a9863adaa970968939c71ba32572c04bc7",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/79d786a9863adaa970968939c71ba32572c04bc7"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/010c6fac400dfd70d9fd6472f2a62a8ae7961b2f",
@@ -530,7 +531,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/010c6fac400dfd70d9fd6472f2a62a8ae7961b2f/comments",
     "author": {
       "login": "aaw",
-      "id": 274931,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/274931?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/aaw",
@@ -549,7 +550,7 @@
     },
     "committer": {
       "login": "aaw",
-      "id": 274931,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/274931?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/aaw",
@@ -568,14 +569,14 @@
     },
     "parents": [
       {
-        "sha": "05f84608c47d8088e0504038b53bb5b21ba316cf",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/05f84608c47d8088e0504038b53bb5b21ba316cf",
         "html_url": "https://github.com/artsy/flux/commit/05f84608c47d8088e0504038b53bb5b21ba316cf"
       }
     ]
   },
   {
-    "sha": "e33d956a4663ef11932a5c69eae2894fb8d241f0",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Aaron Windsor",
@@ -589,7 +590,7 @@
       },
       "message": "Merge pull request #34 from macreery/master\n\nAdd flair to README",
       "tree": {
-        "sha": "36025afef631eca167edeeca7167885f029d4ba7",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/36025afef631eca167edeeca7167885f029d4ba7"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/e33d956a4663ef11932a5c69eae2894fb8d241f0",
@@ -600,7 +601,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/e33d956a4663ef11932a5c69eae2894fb8d241f0/comments",
     "author": {
       "login": "aaw",
-      "id": 274931,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/274931?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/aaw",
@@ -619,7 +620,7 @@
     },
     "committer": {
       "login": "aaw",
-      "id": 274931,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/274931?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/aaw",
@@ -638,19 +639,19 @@
     },
     "parents": [
       {
-        "sha": "124dd44d964145506d9dce5b48119733b6991b97",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/124dd44d964145506d9dce5b48119733b6991b97",
         "html_url": "https://github.com/artsy/flux/commit/124dd44d964145506d9dce5b48119733b6991b97"
       },
       {
-        "sha": "2a8f72b383daf5141b5da6cf18ca1b09d6aab2be",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/2a8f72b383daf5141b5da6cf18ca1b09d6aab2be",
         "html_url": "https://github.com/artsy/flux/commit/2a8f72b383daf5141b5da6cf18ca1b09d6aab2be"
       }
     ]
   },
   {
-    "sha": "2a8f72b383daf5141b5da6cf18ca1b09d6aab2be",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Frank Macreery",
@@ -664,7 +665,7 @@
       },
       "message": "Update json gem due to security vulnerability",
       "tree": {
-        "sha": "36025afef631eca167edeeca7167885f029d4ba7",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/36025afef631eca167edeeca7167885f029d4ba7"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/2a8f72b383daf5141b5da6cf18ca1b09d6aab2be",
@@ -675,7 +676,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/2a8f72b383daf5141b5da6cf18ca1b09d6aab2be/comments",
     "author": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -694,7 +695,7 @@
     },
     "committer": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -713,14 +714,14 @@
     },
     "parents": [
       {
-        "sha": "720f49b66db55db75b045238ccba657e15dd0a21",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/720f49b66db55db75b045238ccba657e15dd0a21",
         "html_url": "https://github.com/artsy/flux/commit/720f49b66db55db75b045238ccba657e15dd0a21"
       }
     ]
   },
   {
-    "sha": "720f49b66db55db75b045238ccba657e15dd0a21",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Frank Macreery",
@@ -734,7 +735,7 @@
       },
       "message": "Fix small discrepancy in Ruby 2.0.0's Float#to_s to get passing specs.\n\nAlso, @dblock informs me that we are in the year 2013. I really need\nto lay off the whippets.",
       "tree": {
-        "sha": "4acb8d36c4526140d071e4288507fa8828402991",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/4acb8d36c4526140d071e4288507fa8828402991"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/720f49b66db55db75b045238ccba657e15dd0a21",
@@ -745,7 +746,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/720f49b66db55db75b045238ccba657e15dd0a21/comments",
     "author": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -764,7 +765,7 @@
     },
     "committer": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -783,14 +784,14 @@
     },
     "parents": [
       {
-        "sha": "3a61a0037b37bd2729018cfbb0f10cb0955a7644",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/3a61a0037b37bd2729018cfbb0f10cb0955a7644",
         "html_url": "https://github.com/artsy/flux/commit/3a61a0037b37bd2729018cfbb0f10cb0955a7644"
       }
     ]
   },
   {
-    "sha": "3a61a0037b37bd2729018cfbb0f10cb0955a7644",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Frank Macreery",
@@ -804,7 +805,7 @@
       },
       "message": "Remove Travis support for 1.8.7 and JRuby, and require YAML to appease weird Ruby",
       "tree": {
-        "sha": "fc1edd7c4ac35c3035b60511fa586d2c2c974529",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/fc1edd7c4ac35c3035b60511fa586d2c2c974529"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/3a61a0037b37bd2729018cfbb0f10cb0955a7644",
@@ -815,7 +816,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/3a61a0037b37bd2729018cfbb0f10cb0955a7644/comments",
     "author": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -834,7 +835,7 @@
     },
     "committer": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -853,14 +854,14 @@
     },
     "parents": [
       {
-        "sha": "428daf8fb4859b5335bf02ea31865017c9b3abb5",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/428daf8fb4859b5335bf02ea31865017c9b3abb5",
         "html_url": "https://github.com/artsy/flux/commit/428daf8fb4859b5335bf02ea31865017c9b3abb5"
       }
     ]
   },
   {
-    "sha": "428daf8fb4859b5335bf02ea31865017c9b3abb5",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Frank Macreery",
@@ -874,7 +875,7 @@
       },
       "message": "Whoops, jruby-19mode",
       "tree": {
-        "sha": "6dff228930e5897eefcdc464e396da6c731500c2",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/6dff228930e5897eefcdc464e396da6c731500c2"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/428daf8fb4859b5335bf02ea31865017c9b3abb5",
@@ -885,7 +886,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/428daf8fb4859b5335bf02ea31865017c9b3abb5/comments",
     "author": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -904,7 +905,7 @@
     },
     "committer": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -923,14 +924,14 @@
     },
     "parents": [
       {
-        "sha": "38ec062df372acb47ac769e11dadb20d95d91a9d",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/38ec062df372acb47ac769e11dadb20d95d91a9d",
         "html_url": "https://github.com/artsy/flux/commit/38ec062df372acb47ac769e11dadb20d95d91a9d"
       }
     ]
   },
   {
-    "sha": "38ec062df372acb47ac769e11dadb20d95d91a9d",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Frank Macreery",
@@ -944,7 +945,7 @@
       },
       "message": "Update links in documentation and ADD FLAIR",
       "tree": {
-        "sha": "19e441108ecb00dd0f77f8c71f7ff6cffb56b334",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/19e441108ecb00dd0f77f8c71f7ff6cffb56b334"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/38ec062df372acb47ac769e11dadb20d95d91a9d",
@@ -955,7 +956,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/38ec062df372acb47ac769e11dadb20d95d91a9d/comments",
     "author": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -974,7 +975,7 @@
     },
     "committer": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -993,14 +994,14 @@
     },
     "parents": [
       {
-        "sha": "692625d02f2b2ed2f6a59669ab0603382cb6f4e0",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/692625d02f2b2ed2f6a59669ab0603382cb6f4e0",
         "html_url": "https://github.com/artsy/flux/commit/692625d02f2b2ed2f6a59669ab0603382cb6f4e0"
       }
     ]
   },
   {
-    "sha": "692625d02f2b2ed2f6a59669ab0603382cb6f4e0",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Frank Macreery",
@@ -1014,7 +1015,7 @@
       },
       "message": "Add Travis configuration and default rake task to support Travis builds",
       "tree": {
-        "sha": "7ff6cc26b721f6daf098f7570c6a5cfd934db796",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/7ff6cc26b721f6daf098f7570c6a5cfd934db796"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/692625d02f2b2ed2f6a59669ab0603382cb6f4e0",
@@ -1025,7 +1026,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/692625d02f2b2ed2f6a59669ab0603382cb6f4e0/comments",
     "author": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -1044,7 +1045,7 @@
     },
     "committer": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -1063,14 +1064,14 @@
     },
     "parents": [
       {
-        "sha": "124dd44d964145506d9dce5b48119733b6991b97",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/124dd44d964145506d9dce5b48119733b6991b97",
         "html_url": "https://github.com/artsy/flux/commit/124dd44d964145506d9dce5b48119733b6991b97"
       }
     ]
   },
   {
-    "sha": "124dd44d964145506d9dce5b48119733b6991b97",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Aaron Windsor",
@@ -1084,7 +1085,7 @@
       },
       "message": "Merge pull request #33 from macreery/master\n\n@aaw: Add a LICENSE.md",
       "tree": {
-        "sha": "1201a19219e88554709bb124e4ab3cf0ccca0cbe",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/1201a19219e88554709bb124e4ab3cf0ccca0cbe"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/124dd44d964145506d9dce5b48119733b6991b97",
@@ -1095,7 +1096,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/124dd44d964145506d9dce5b48119733b6991b97/comments",
     "author": {
       "login": "aaw",
-      "id": 274931,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/274931?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/aaw",
@@ -1114,7 +1115,7 @@
     },
     "committer": {
       "login": "aaw",
-      "id": 274931,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/274931?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/aaw",
@@ -1133,19 +1134,19 @@
     },
     "parents": [
       {
-        "sha": "05f84608c47d8088e0504038b53bb5b21ba316cf",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/05f84608c47d8088e0504038b53bb5b21ba316cf",
         "html_url": "https://github.com/artsy/flux/commit/05f84608c47d8088e0504038b53bb5b21ba316cf"
       },
       {
-        "sha": "fabaaa5ed50907b20332ccd46abb296b28ca9968",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/fabaaa5ed50907b20332ccd46abb296b28ca9968",
         "html_url": "https://github.com/artsy/flux/commit/fabaaa5ed50907b20332ccd46abb296b28ca9968"
       }
     ]
   },
   {
-    "sha": "fabaaa5ed50907b20332ccd46abb296b28ca9968",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Frank Macreery",
@@ -1159,7 +1160,7 @@
       },
       "message": "Create LICENSE.md",
       "tree": {
-        "sha": "1201a19219e88554709bb124e4ab3cf0ccca0cbe",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/1201a19219e88554709bb124e4ab3cf0ccca0cbe"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/fabaaa5ed50907b20332ccd46abb296b28ca9968",
@@ -1170,7 +1171,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/fabaaa5ed50907b20332ccd46abb296b28ca9968/comments",
     "author": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -1189,7 +1190,7 @@
     },
     "committer": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -1208,14 +1209,14 @@
     },
     "parents": [
       {
-        "sha": "05f84608c47d8088e0504038b53bb5b21ba316cf",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/05f84608c47d8088e0504038b53bb5b21ba316cf",
         "html_url": "https://github.com/artsy/flux/commit/05f84608c47d8088e0504038b53bb5b21ba316cf"
       }
     ]
   },
   {
-    "sha": "05f84608c47d8088e0504038b53bb5b21ba316cf",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Aaron Windsor",
@@ -1229,7 +1230,7 @@
       },
       "message": "Merge pull request #22 from macreery/working-staging-resqueweb\n\n@aaw: Run Resque's web interface through Rack",
       "tree": {
-        "sha": "af848d3bdb643c44e307074304983e442a8f425b",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/af848d3bdb643c44e307074304983e442a8f425b"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/05f84608c47d8088e0504038b53bb5b21ba316cf",
@@ -1240,7 +1241,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/05f84608c47d8088e0504038b53bb5b21ba316cf/comments",
     "author": {
       "login": "aaw",
-      "id": 274931,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/274931?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/aaw",
@@ -1259,7 +1260,7 @@
     },
     "committer": {
       "login": "aaw",
-      "id": 274931,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/274931?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/aaw",
@@ -1278,19 +1279,19 @@
     },
     "parents": [
       {
-        "sha": "c5c9e1b75344a3e6b4dc327c001a2b3789c9bd63",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/c5c9e1b75344a3e6b4dc327c001a2b3789c9bd63",
         "html_url": "https://github.com/artsy/flux/commit/c5c9e1b75344a3e6b4dc327c001a2b3789c9bd63"
       },
       {
-        "sha": "cb1120d0b4d3f67e25ce5d03c4b9661fd121c869",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/cb1120d0b4d3f67e25ce5d03c4b9661fd121c869",
         "html_url": "https://github.com/artsy/flux/commit/cb1120d0b4d3f67e25ce5d03c4b9661fd121c869"
       }
     ]
   },
   {
-    "sha": "cb1120d0b4d3f67e25ce5d03c4b9661fd121c869",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Frank Macreery",
@@ -1304,7 +1305,7 @@
       },
       "message": "Run Resque's web interface through Rack, with an optional RESQUEWEB_MOUNT_PATH",
       "tree": {
-        "sha": "af848d3bdb643c44e307074304983e442a8f425b",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/af848d3bdb643c44e307074304983e442a8f425b"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/cb1120d0b4d3f67e25ce5d03c4b9661fd121c869",
@@ -1315,7 +1316,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/cb1120d0b4d3f67e25ce5d03c4b9661fd121c869/comments",
     "author": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -1334,7 +1335,7 @@
     },
     "committer": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -1353,14 +1354,14 @@
     },
     "parents": [
       {
-        "sha": "c5c9e1b75344a3e6b4dc327c001a2b3789c9bd63",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/c5c9e1b75344a3e6b4dc327c001a2b3789c9bd63",
         "html_url": "https://github.com/artsy/flux/commit/c5c9e1b75344a3e6b4dc327c001a2b3789c9bd63"
       }
     ]
   },
   {
-    "sha": "c5c9e1b75344a3e6b4dc327c001a2b3789c9bd63",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Aaron Windsor",
@@ -1374,7 +1375,7 @@
       },
       "message": "Merge pull request #21 from macreery/master\n\n@aaw: Fix /sync timeouts",
       "tree": {
-        "sha": "8e0d5e03918cf56b3c22037297baba7ca41f49ae",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/8e0d5e03918cf56b3c22037297baba7ca41f49ae"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/c5c9e1b75344a3e6b4dc327c001a2b3789c9bd63",
@@ -1385,7 +1386,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/c5c9e1b75344a3e6b4dc327c001a2b3789c9bd63/comments",
     "author": {
       "login": "aaw",
-      "id": 274931,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/274931?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/aaw",
@@ -1404,7 +1405,7 @@
     },
     "committer": {
       "login": "aaw",
-      "id": 274931,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/274931?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/aaw",
@@ -1423,19 +1424,19 @@
     },
     "parents": [
       {
-        "sha": "a8bd63799eb3d0c4f229aeae03635205010a319a",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/a8bd63799eb3d0c4f229aeae03635205010a319a",
         "html_url": "https://github.com/artsy/flux/commit/a8bd63799eb3d0c4f229aeae03635205010a319a"
       },
       {
-        "sha": "60f0158be2ca251a531b5a9e4e2f31ace23d2d5c",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/60f0158be2ca251a531b5a9e4e2f31ace23d2d5c",
         "html_url": "https://github.com/artsy/flux/commit/60f0158be2ca251a531b5a9e4e2f31ace23d2d5c"
       }
     ]
   },
   {
-    "sha": "60f0158be2ca251a531b5a9e4e2f31ace23d2d5c",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Frank Macreery",
@@ -1449,7 +1450,7 @@
       },
       "message": "Don't assume sync failure if in middle of long fetch",
       "tree": {
-        "sha": "8e0d5e03918cf56b3c22037297baba7ca41f49ae",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/8e0d5e03918cf56b3c22037297baba7ca41f49ae"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/60f0158be2ca251a531b5a9e4e2f31ace23d2d5c",
@@ -1460,7 +1461,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/60f0158be2ca251a531b5a9e4e2f31ace23d2d5c/comments",
     "author": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -1479,7 +1480,7 @@
     },
     "committer": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -1498,14 +1499,14 @@
     },
     "parents": [
       {
-        "sha": "79623b0201609da8ee3dce1db0d61aa715935569",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/79623b0201609da8ee3dce1db0d61aa715935569",
         "html_url": "https://github.com/artsy/flux/commit/79623b0201609da8ee3dce1db0d61aa715935569"
       }
     ]
   },
   {
-    "sha": "79623b0201609da8ee3dce1db0d61aa715935569",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Frank Macreery",
@@ -1519,7 +1520,7 @@
       },
       "message": "Disconnect from master on server start, if in development mode",
       "tree": {
-        "sha": "49e2d596fd27396e0d91fc65a6eea02162d2e049",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/49e2d596fd27396e0d91fc65a6eea02162d2e049"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/79623b0201609da8ee3dce1db0d61aa715935569",
@@ -1530,7 +1531,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/79623b0201609da8ee3dce1db0d61aa715935569/comments",
     "author": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -1549,7 +1550,7 @@
     },
     "committer": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -1568,14 +1569,14 @@
     },
     "parents": [
       {
-        "sha": "a8bd63799eb3d0c4f229aeae03635205010a319a",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/a8bd63799eb3d0c4f229aeae03635205010a319a",
         "html_url": "https://github.com/artsy/flux/commit/a8bd63799eb3d0c4f229aeae03635205010a319a"
       }
     ]
   },
   {
-    "sha": "a8bd63799eb3d0c4f229aeae03635205010a319a",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Aaron Windsor",
@@ -1589,7 +1590,7 @@
       },
       "message": "Merge pull request #20 from macreery/non-halting-event-processing\n\n@aaw: Non-halting event processing",
       "tree": {
-        "sha": "34e814a0636b98610974ec73cc8f00f91b885088",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/34e814a0636b98610974ec73cc8f00f91b885088"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/a8bd63799eb3d0c4f229aeae03635205010a319a",
@@ -1600,7 +1601,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/a8bd63799eb3d0c4f229aeae03635205010a319a/comments",
     "author": {
       "login": "aaw",
-      "id": 274931,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/274931?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/aaw",
@@ -1619,7 +1620,7 @@
     },
     "committer": {
       "login": "aaw",
-      "id": 274931,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/274931?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/aaw",
@@ -1638,19 +1639,19 @@
     },
     "parents": [
       {
-        "sha": "d4803de7f607f20573c8a4bb52cd4925bf3dd2ea",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/d4803de7f607f20573c8a4bb52cd4925bf3dd2ea",
         "html_url": "https://github.com/artsy/flux/commit/d4803de7f607f20573c8a4bb52cd4925bf3dd2ea"
       },
       {
-        "sha": "c1f33082feb1ba705a26a8c668dcf4cee0398866",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/c1f33082feb1ba705a26a8c668dcf4cee0398866",
         "html_url": "https://github.com/artsy/flux/commit/c1f33082feb1ba705a26a8c668dcf4cee0398866"
       }
     ]
   },
   {
-    "sha": "c1f33082feb1ba705a26a8c668dcf4cee0398866",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Frank Macreery",
@@ -1664,7 +1665,7 @@
       },
       "message": "Add deprecation comment",
       "tree": {
-        "sha": "34e814a0636b98610974ec73cc8f00f91b885088",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/34e814a0636b98610974ec73cc8f00f91b885088"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/c1f33082feb1ba705a26a8c668dcf4cee0398866",
@@ -1675,7 +1676,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/c1f33082feb1ba705a26a8c668dcf4cee0398866/comments",
     "author": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -1694,7 +1695,7 @@
     },
     "committer": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -1713,14 +1714,14 @@
     },
     "parents": [
       {
-        "sha": "d0999c99bfaaf933a1b1ac1bf92d099f9b3c1777",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/d0999c99bfaaf933a1b1ac1bf92d099f9b3c1777",
         "html_url": "https://github.com/artsy/flux/commit/d0999c99bfaaf933a1b1ac1bf92d099f9b3c1777"
       }
     ]
   },
   {
-    "sha": "d0999c99bfaaf933a1b1ac1bf92d099f9b3c1777",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Frank Macreery",
@@ -1734,7 +1735,7 @@
       },
       "message": "Don't halt event processing on an undefined attribute.\n\nWhen an event matches a global handler (defined in config/schema.json), we\ndon't want to halt execution if one of the attributes in a single handler\nis undefined. (If an attribute referenced in an inline handler is undefined,\nwe will still halt execution.)\n\nAs an example case, updated the following/unfollowing schema definitions to\naccept either \"followed\" or \"followee\" as the followee parameter. We can\nremove the former handler once client applications' code goes to production.",
       "tree": {
-        "sha": "c4f13bb8fab6242893e6688593982a69903df852",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/c4f13bb8fab6242893e6688593982a69903df852"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/d0999c99bfaaf933a1b1ac1bf92d099f9b3c1777",
@@ -1745,7 +1746,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/d0999c99bfaaf933a1b1ac1bf92d099f9b3c1777/comments",
     "author": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -1764,7 +1765,7 @@
     },
     "committer": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -1783,14 +1784,14 @@
     },
     "parents": [
       {
-        "sha": "3c45811e2ed2d1a1a6a42bc9537b04b4a32a4b4a",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/3c45811e2ed2d1a1a6a42bc9537b04b4a32a4b4a",
         "html_url": "https://github.com/artsy/flux/commit/3c45811e2ed2d1a1a6a42bc9537b04b4a32a4b4a"
       }
     ]
   },
   {
-    "sha": "3c45811e2ed2d1a1a6a42bc9537b04b4a32a4b4a",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Frank Macreery",
@@ -1804,7 +1805,7 @@
       },
       "message": "Fix Procfile port for local Resque web worker",
       "tree": {
-        "sha": "89987b45151ec90b9eca5076ff6d76dd137a3ba7",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/89987b45151ec90b9eca5076ff6d76dd137a3ba7"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/3c45811e2ed2d1a1a6a42bc9537b04b4a32a4b4a",
@@ -1815,7 +1816,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/3c45811e2ed2d1a1a6a42bc9537b04b4a32a4b4a/comments",
     "author": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -1834,7 +1835,7 @@
     },
     "committer": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -1853,14 +1854,14 @@
     },
     "parents": [
       {
-        "sha": "d4803de7f607f20573c8a4bb52cd4925bf3dd2ea",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/d4803de7f607f20573c8a4bb52cd4925bf3dd2ea",
         "html_url": "https://github.com/artsy/flux/commit/d4803de7f607f20573c8a4bb52cd4925bf3dd2ea"
       }
     ]
   },
   {
-    "sha": "d4803de7f607f20573c8a4bb52cd4925bf3dd2ea",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Aaron Windsor",
@@ -1874,7 +1875,7 @@
       },
       "message": "Merge pull request #19 from macreery/counter-updates\n\n@aaw: Improvements around counters and /sync",
       "tree": {
-        "sha": "8664071d68e489f278c199d132fdb3e6988f2c79",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/8664071d68e489f278c199d132fdb3e6988f2c79"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/d4803de7f607f20573c8a4bb52cd4925bf3dd2ea",
@@ -1885,7 +1886,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/d4803de7f607f20573c8a4bb52cd4925bf3dd2ea/comments",
     "author": {
       "login": "aaw",
-      "id": 274931,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/274931?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/aaw",
@@ -1904,7 +1905,7 @@
     },
     "committer": {
       "login": "aaw",
-      "id": 274931,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/274931?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/aaw",
@@ -1923,19 +1924,19 @@
     },
     "parents": [
       {
-        "sha": "3a5dd7aaf176c299d2fb16e9c8a1a3fce5852ba4",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/3a5dd7aaf176c299d2fb16e9c8a1a3fce5852ba4",
         "html_url": "https://github.com/artsy/flux/commit/3a5dd7aaf176c299d2fb16e9c8a1a3fce5852ba4"
       },
       {
-        "sha": "6d09be055322645f30092cf79d26602483a69908",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/6d09be055322645f30092cf79d26602483a69908",
         "html_url": "https://github.com/artsy/flux/commit/6d09be055322645f30092cf79d26602483a69908"
       }
     ]
   },
   {
-    "sha": "6d09be055322645f30092cf79d26602483a69908",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Frank Macreery",
@@ -1949,7 +1950,7 @@
       },
       "message": "Modified logic for gross counters\n\nInstead of incrementing an integer on every ZADD operation to a Flux set,\nwe now use a HyperLogLog counter to track the number of distinct key-score\npairs added to a set.\n\nThis aligns somewhat better with our expected client use case, where clients\nmay \"replay\" events back into Flux by specifying a canonical score per event.",
       "tree": {
-        "sha": "8664071d68e489f278c199d132fdb3e6988f2c79",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/8664071d68e489f278c199d132fdb3e6988f2c79"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/6d09be055322645f30092cf79d26602483a69908",
@@ -1960,7 +1961,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/6d09be055322645f30092cf79d26602483a69908/comments",
     "author": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -1979,7 +1980,7 @@
     },
     "committer": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -1998,14 +1999,14 @@
     },
     "parents": [
       {
-        "sha": "9c25a5aae98b81df37f895c67d1109de526227c3",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/9c25a5aae98b81df37f895c67d1109de526227c3",
         "html_url": "https://github.com/artsy/flux/commit/9c25a5aae98b81df37f895c67d1109de526227c3"
       }
     ]
   },
   {
-    "sha": "9c25a5aae98b81df37f895c67d1109de526227c3",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Frank Macreery",
@@ -2019,7 +2020,7 @@
       },
       "message": "Add support for intersection and union counts on sets via HyperLogLog",
       "tree": {
-        "sha": "302cf5de6f96d8e124a1551698590f1d2c428381",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/302cf5de6f96d8e124a1551698590f1d2c428381"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/9c25a5aae98b81df37f895c67d1109de526227c3",
@@ -2030,7 +2031,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/9c25a5aae98b81df37f895c67d1109de526227c3/comments",
     "author": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -2049,7 +2050,7 @@
     },
     "committer": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -2068,14 +2069,14 @@
     },
     "parents": [
       {
-        "sha": "a376b30df9518b5522347a5c4acc4fe9f5cad1da",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/a376b30df9518b5522347a5c4acc4fe9f5cad1da",
         "html_url": "https://github.com/artsy/flux/commit/a376b30df9518b5522347a5c4acc4fe9f5cad1da"
       }
     ]
   },
   {
-    "sha": "a376b30df9518b5522347a5c4acc4fe9f5cad1da",
+    "sha": Math.random(),
     "commit": {
       "author": {
         "name": "Frank Macreery",
@@ -2089,7 +2090,7 @@
       },
       "message": "A couple improvements around /sync\n\n* Properly emancipate Redis after sync\n* Swap app/Resque database numbers so that app database matches master",
       "tree": {
-        "sha": "1571174669affbd4037b59c953c0bc27fc0faf56",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/git/trees/1571174669affbd4037b59c953c0bc27fc0faf56"
       },
       "url": "https://api.github.com/repos/artsy/flux/git/commits/a376b30df9518b5522347a5c4acc4fe9f5cad1da",
@@ -2100,7 +2101,7 @@
     "comments_url": "https://api.github.com/repos/artsy/flux/commits/a376b30df9518b5522347a5c4acc4fe9f5cad1da/comments",
     "author": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -2119,7 +2120,7 @@
     },
     "committer": {
       "login": "fancyremarker",
-      "id": 156030,
+      "id": Math.random(),
       "avatar_url": "https://avatars.githubusercontent.com/u/156030?v=3",
       "gravatar_id": "",
       "url": "https://api.github.com/users/fancyremarker",
@@ -2138,10 +2139,11 @@
     },
     "parents": [
       {
-        "sha": "3a5dd7aaf176c299d2fb16e9c8a1a3fce5852ba4",
+        "sha": Math.random(),
         "url": "https://api.github.com/repos/artsy/flux/commits/3a5dd7aaf176c299d2fb16e9c8a1a3fce5852ba4",
         "html_url": "https://github.com/artsy/flux/commit/3a5dd7aaf176c299d2fb16e9c8a1a3fce5852ba4"
       }
     ]
   }
 ]
+}
