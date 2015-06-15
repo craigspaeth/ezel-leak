@@ -15,7 +15,12 @@ exports.index = function(req, res, next) {
     .get(API_URL + '/repos/artsy/' + Math.random() + '/commits')
     .timeout(2000)
     .end(function(err, sres) {
-      res.render('index', { commits: [] });
+      if (err) return res.status(500).send(err);
+      var commits = new Commits(sres.body, {
+        owner: 'artsy',
+        repo: Math.random()
+      });
+      res.render('index', { commits: commits.models });
     });
   // commits.fetch({
   //   success: function() {
