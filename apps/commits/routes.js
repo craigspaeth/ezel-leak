@@ -9,7 +9,9 @@ var Commits = require('../../collections/commits');
 // });
 
 exports.index = function(req, res, next) {
-  res.render('index', { commits: [] });
+  setTimeout(function() {
+    res.render('index', { commits: [] });
+  }, Math.round(500 + Math.random() * 1000));
   // commits.fetch({
   //   success: function() {
   //     res.locals.sd.COMMITS = commits.toJSON();
