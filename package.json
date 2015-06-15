@@ -13,7 +13,8 @@
     "jade": "*",
     "sharify": "*",
     "uglify-js": "*",
-    "memwatch-next": "*"
+    "memwatch-next": "*",
+    "superagent": "*"
   },
   "devDependencies": {
     "jquery": "*",
@@ -28,7 +29,6 @@
     "zombie": "*",
     "html5": "*",
     "sqwish": "*",
-    "superagent": "*",
     "async": "*"
   }
 }
