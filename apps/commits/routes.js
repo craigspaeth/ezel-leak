@@ -14,6 +14,6 @@ exports.index = function(req, res, next) {
       res.locals.sd.COMMITS = commits.toJSON();
       res.render('index', { commits: commits.models });
     },
-    error: function(m, err) { next(err.text); }
+    error: function(m, err) { res.status(500).send(err); }
   });
 };
