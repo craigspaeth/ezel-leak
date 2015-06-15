@@ -12,7 +12,8 @@
     "heapdump": "^0.3.5",
     "jade": "*",
     "sharify": "*",
-    "uglify-js": "*"
+    "uglify-js": "*",
+    "memwatch-next": "*"
   },
   "devDependencies": {
     "jquery": "*",

@@ -7,19 +7,15 @@ var superagent = require('superagent'),
     APP_URL = process.env.APP_URL;
 
 var fetch = function (callback) {
-  async.times(20 + Math.round(Math.random() * 10), function(n, next) {
-    superagent.get(APP_URL).end(function (err, res) {
-      console.log('.' + err);
-      next(err, res);
-    });
+  async.times(500 + Math.round(Math.random() * 500), function(n, next) {
+    superagent
+      .get(APP_URL)
+      .timeout(7000)
+      .end(function (err, res) {
+        console.log('.' + err);
+        next(err, res);
+      });
   }, callback);
 }
 
-var recur = function() {
-  fetch(function() {
-    console.log('--')
-    recur();
-  });
-}
-
-recur();
+setInterval(fetch, 10000);

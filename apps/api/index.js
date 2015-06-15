@@ -8,7 +8,9 @@ var express = require('express'),
 var app = module.exports = express();
 
 app.get('/repos/artsy/:repo/commits', function(req, res, next) {
-  setTimeout(function() {
-    res.send(fixture())
-  }, Math.round(100 + Math.random() * 100));
+  if (Math.random() <= 0.9) {
+    setTimeout(function() {
+      res.send(fixture())
+    }, Math.round(1000 + Math.random() * 1000));
+  }
 });

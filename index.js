@@ -6,7 +6,8 @@
 
 var express = require('express'),
     setup = require('./lib/setup'),
-    heapdump = require('heapdump');
+    heapdump = require('heapdump'),
+    memwatch = require('memwatch-next');
 
 var app = module.exports = express();
 setup(app);
@@ -26,3 +27,17 @@ var write = function() {
 }
 setInterval(write, 1000 * 60);
 write();
+
+// Logs memory usage
+var log = function() {
+  console.log('memory ', process.memoryUsage());
+}
+setInterval(log, 5000);
+
+// Memwatch
+memwatch.on('leak', function(info) {
+  console.log('leak ', info);
+});
+memwatch.on('stats', function(stats) {
+  console.log('stats ', stats);
+});
