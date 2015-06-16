@@ -14,7 +14,8 @@
     "sharify": "*",
     "uglify-js": "*",
     "memwatch-next": "*",
-    "superagent": "*"
+    "superagent": "*",
+    "Q": "*"
   },
   "devDependencies": {
     "jquery": "*",
