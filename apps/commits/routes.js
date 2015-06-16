@@ -15,7 +15,6 @@ exports.index = function(req, res, next) {
   commits.sync = supersync;
   commits.fetch({
     success: function() {
-      res.locals.sd.COMMITS = commits.toJSON();
       res.render('index', { commits: commits.models });
     },
     error: function(m, err) { res.status(500).send(err); }
