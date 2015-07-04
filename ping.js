@@ -8,14 +8,18 @@ var superagent = require('superagent'),
 
 var fetch = function (callback) {
   async.times(2000 + Math.round(Math.random() * 2000), function(n, next) {
-    superagent
-      .get(APP_URL)
-      .timeout(3000)
-      .end(function (err, res) {
-        console.log('.' + err);
-        next(err, res);
-      });
+    console.log('+');
+    setTimeout(function() {
+      console.log('-');
+      superagent
+        .get(APP_URL)
+        .timeout(3000)
+        .end(function (err, res) {
+          console.log('.' + err);
+          next(err, res);
+        });
+    }, 100 + Math.random() * 100);
   }, callback);
 }
 
-setInterval(fetch, 10000);
+setInterval(fetch, 1000);
