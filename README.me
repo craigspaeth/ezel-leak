@@ -6,4 +6,5 @@ An app to test out what is causing a memory leak in an Ezel boilerplate app.
 
 * Backbone super sync
   * Adding a `.timeout(2000)` definitely flattens out memory consumption. Long haning requests clearly blow up memory.
+  * Deferreds also hang on to memory
   * Closures withing backbone-super-sync? e.g. `error`, `success`, `send`
