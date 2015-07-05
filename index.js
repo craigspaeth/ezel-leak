@@ -30,6 +30,7 @@ write();
 
 // Logs memory usage
 var log = function() {
+  memwatch.gc();
   console.log('memory ', process.memoryUsage());
 }
 setInterval(log, 5000);
