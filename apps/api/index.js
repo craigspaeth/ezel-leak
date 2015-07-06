@@ -11,6 +11,10 @@ app.get('/repos/artsy/:repo/commits', function(req, res, next) {
   if (Math.random() <= 0.95) {
     setTimeout(function() {
       res.send(fixture());
-    }, Math.round(500 + Math.random() * 1000));
+    }, Math.round(100 + Math.random() * 300));
+  } else {
+    setTimeout(function() {
+      res.send(fixture());
+    }, Math.round(5000 + Math.random() * 5000));
   }
 });
