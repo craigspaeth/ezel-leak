@@ -7,7 +7,7 @@ var superagent = require('superagent'),
     APP_URL = process.env.APP_URL;
 
 var fetch = function (callback) {
-  async.times(250 + Math.round(Math.random() * 250), function(n, next) {
+  async.times(1000 + Math.round(Math.random() * 500), function(n, next) {
     console.log('+');
     setTimeout(function() {
       console.log('-');
