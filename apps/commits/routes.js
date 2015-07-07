@@ -15,8 +15,10 @@ exports.index = function(req, res, next) {
   commits.sync = supersync;
   commits.fetch({
     success: function() {
-      res.render('index', { commits: commits.models });
+      console.log('end');
+      // res.render('index', { commits: commits.models });
     },
     error: function(m, err) { res.status(500).send(err); }
   });
+  res.send('hi');
 };
