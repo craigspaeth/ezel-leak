@@ -12,6 +12,7 @@ exports.index = function(req, res, next) {
     .get(API_URL + '/repos/artsy/foo/commits')
     .timeout(2000)
     .end(function(err, r) {
+      if (err) return res.status(500).send(err);
       var commits = new Commits(r.body, {
         owner: 'artsy',
         repo: Math.random()
