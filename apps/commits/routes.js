@@ -12,7 +12,11 @@ exports.index = function(req, res, next) {
     .get(API_URL + '/repos/artsy/foo/commits')
     .timeout(2000)
     .end(function(err, r) {
-      res.send('hi');
+      var commits = new Commits(r.body, {
+        owner: 'artsy',
+        repo: Math.random()
+      });
+      res.render('index', { commits: commits });
     });
   var commits = new Commits(null, {
     owner: 'artsy',
