@@ -16,7 +16,7 @@ exports.index = function(req, res, next) {
         owner: 'artsy',
         repo: Math.random()
       });
-      res.render('index', { commits: commits });
+      res.render('index', { commits: commits.models });
     });
   var commits = new Commits(null, {
     owner: 'artsy',
