@@ -22,7 +22,7 @@ app.listen(process.env.PORT, function() {
   if(process.send) process.send('listening');
 });
 
-if (!process.env.API_URL) return;
+return
 
 // Write heapdumps
 var i = 0;
