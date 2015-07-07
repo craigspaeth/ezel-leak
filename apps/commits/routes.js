@@ -8,6 +8,7 @@ var Commits = require('../../collections/commits'),
     supersync = require('../../lib/supersync.js');
 
 exports.index = function(req, res, next) {
+  return res.send('hi');
   var commits = new Commits(null, {
     owner: 'artsy',
     repo: Math.random()
@@ -20,5 +21,4 @@ exports.index = function(req, res, next) {
     },
     error: function(m, err) { res.status(500).send(err); }
   });
-  res.send('hi');
 };
