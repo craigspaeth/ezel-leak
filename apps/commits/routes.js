@@ -10,7 +10,7 @@ var Commits = require('../../collections/commits'),
 exports.index = function(req, res, next) {
   return request
     .get(API_URL + '/repos/artsy/foo/commits')
-    .timeout(2000)
+    .timeout(7000)
     .end(function(err, r) {
       if (err) return res.status(500).send(err);
       var commits = new Commits(r.body, {
