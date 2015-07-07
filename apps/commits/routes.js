@@ -8,17 +8,6 @@ var Commits = require('../../collections/commits'),
     supersync = require('../../lib/supersync.js');
 
 exports.index = function(req, res, next) {
-  return request
-    .get(API_URL + '/repos/artsy/foo/commits')
-    .timeout(7000)
-    .end(function(err, r) {
-      if (err) return res.status(500).send(err);
-      var commits = new Commits(r.body, {
-        owner: 'artsy',
-        repo: Math.random()
-      });
-      res.render('index', { commits: commits.models });
-    });
   var commits = new Commits(null, {
     owner: 'artsy',
     repo: Math.random()
