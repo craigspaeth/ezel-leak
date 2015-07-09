@@ -22,23 +22,11 @@ app.listen(process.env.PORT, function() {
   if(process.send) process.send('listening');
 });
 
-return
-
-// Write heapdumps
-var i = 0;
-var write = function() {
-  i++;
-  heapdump.writeSnapshot(__dirname + "/public/heapdumps/" + i + ".heapsnapshot");
-}
-setInterval(write, 1000 * 60);
-write();
-
 // Logs memory usage
 var log = function() {
-  memwatch.gc();
   console.log('memory ', process.memoryUsage());
 }
-setInterval(log, 5000);
+setInterval(log, 1000);
 
 // Memwatch
 memwatch.on('leak', function(info) {
