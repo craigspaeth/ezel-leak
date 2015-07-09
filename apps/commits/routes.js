@@ -8,16 +8,6 @@ var Commits = require('../../collections/commits'),
     supersync = require('../../lib/supersync.js');
 
 exports.index = function(req, res, next) {
-  // Just superagent
-
-  // Superagent to Backbone
-  request.get(API_URL + '/repos/artsy/foo/commits').end(function(err, r) {
-      var commits = new Commits(r.body, { owner: 'artsy', repo: 'foo' });
-      res.render('index', { commits: commits.models });
-  });
-  return
-
-  // Default
   var commits = new Commits(null, {
     owner: 'artsy',
     repo: Math.random()
