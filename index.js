@@ -4,6 +4,7 @@
 // be abstracted into modules under /lib.
 //
 
+require('newrelic');
 var express = require('express'),
     setup = require('./lib/setup'),
     heapdump = require('heapdump'),
