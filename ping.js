@@ -23,4 +23,4 @@ var fetch = function (callback) {
 }
 
 setInterval(fetch, 5000);
-setTimeout(process.exit, 1000 * 60 * 60 * 10)
+setTimeout(process.exit, 1000 * 60 * 60 * 5)
