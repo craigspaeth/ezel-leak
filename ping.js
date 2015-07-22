@@ -2,7 +2,7 @@
 // Pings the app around the rate of Force in production (30 rps)
 //
 
-var URLS = [
+var SHOW_URLS = [
   "https://m-staging.artsy.net/show/paradise-row-avenue-des-gobelins",
   "https://m-staging.artsy.net/show/simon-lee-gallery-lavoro",
   "https://m-staging.artsy.net/show/bitforms-gallery-claudia-hart-when-a-rose-is-not-a-rose",
@@ -502,7 +502,9 @@ var URLS = [
   "https://m-staging.artsy.net/show/gerald-peters-gallery-gerald-peters-at-the-armory-show-2012",
   "https://m-staging.artsy.net/show/tibor-de-nagy-tibor-de-nagy-at-the-armory-show-2012",
   "https://m-staging.artsy.net/show/samson-samson-projects-at-volta-ny-2012-solo-booth-featuring-matt-rich",
-  "https://m-staging.artsy.net/show/jack-hanley-gallery-independent-2012",
+  "https://m-staging.artsy.net/show/jack-hanley-gallery-independent-2012"
+]
+var ARTIST_URLS = [
   "https://m-staging.artsy.net/pace-gallery/artist/tim-hawkinson",
   "https://m-staging.artsy.net/kathryn-markel-fine-arts/artist/kathleen-dunn",
   "https://m-staging.artsy.net/green-art-gallery/artist/jaber-al-azmeh",
@@ -1010,12 +1012,12 @@ var superagent = require('superagent'),
     _ = require('underscore');
 
 var fetch = function (callback) {
-  async.times(20 + Math.round(Math.random() * 20), function(n, next) {
+  async.times(2 + Math.round(Math.random() * 2), function(n, next) {
     console.log('+');
     setTimeout(function() {
       console.log('-');
       superagent
-        .get(_.sample(URLS))
+        .get(_.sample(ARTIST_URLS))
         .timeout(3000)
         .end(function (err, res) {
           console.log('.' + err);
@@ -1026,4 +1028,4 @@ var fetch = function (callback) {
 }
 
 setInterval(fetch, 5000);
-setTimeout(process.exit, 1000 * 60 * 60 * 10)
+setTimeout(process.exit, 1000 * 60 * 60 * 10);
