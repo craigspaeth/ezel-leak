@@ -510,19 +510,17 @@ var superagent = require('superagent'),
     _ = require('underscore');
 
 var fetch = function (callback) {
-  async.times(10 + Math.round(Math.random() * 10), function(n, next) {
+  async.times(20 + Math.round(Math.random() * 20), function(n, next) {
     console.log('+');
     setTimeout(function() {
-      var url = _.sample(URLS)
+      // var url = _.sample(URLS)
+      var url = 'http://ezel-leak.herokuapp.com';
       console.log('-', url);
       superagent
         .get(url)
         .timeout(3000)
         .end(function (err, res) {
-          if (err && err.code == 'ECONNRESET') {
-            console.log('.', url);
-            process.exit();
-          }
+          console.log('.')
           next(err, res);
         });
     }, 0);
