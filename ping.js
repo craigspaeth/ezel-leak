@@ -2,7 +2,7 @@
 // Pings the app around the rate of Force in production (30 rps)
 //
 
-var BASE_URL = 'https://microgravity-leak.herokuapp.com/';
+var BASE_URL = 'https://microgravity-leak2.herokuapp.com';
 var URLS = [
   BASE_URL + "/artwork/tara-mcpherson-the-days-eye-trance-2",
   BASE_URL + "/artwork/amber-george-plaided",
