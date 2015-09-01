@@ -511,11 +511,11 @@ var superagent = require('superagent'),
     _ = require('underscore');
 
 var fetch = function (callback) {
-  async.times(20 + Math.round(Math.random() * 20), function(n, next) {
+  async.times(40 + Math.round(Math.random() * 40), function(n, next) {
     console.log('+');
     setTimeout(function() {
-      var url = _.sample(URLS)
-      // var url = 'http://ezel-leak.herokuapp.com';
+      // var url = _.sample(URLS)
+      var url = 'http://ezel-leak.herokuapp.com';
       console.log('-', url);
       superagent
         .get(url)

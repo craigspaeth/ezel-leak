@@ -21,7 +21,7 @@ deploy:
 	git add .
 	git commit -a -m 'latest'
 	git push origin master
-	git push --force git@heroku.com:ezel-leak.git
+	git push --force git@heroku.com:$(app).git
 	git push --force git@heroku.com:ezel-leak-api.git
 
 # Run all of the project-level tests, followed by app-level tests
