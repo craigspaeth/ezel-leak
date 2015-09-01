@@ -10,7 +10,7 @@ BIN = node_modules/.bin
 
 # Start the server
 s:
-	foreman run node index.js
+	foreman run node --max_old_space_size=256 index.js
 
 # Ping the server in ~30rps
 ping:
