@@ -2,6 +2,7 @@
 // Pings the app around the rate of Force in production (30 rps)
 //
 
+var url = process.argv[2]
 var BASE_URL = 'https://microgravity-leak2.herokuapp.com';
 var URLS = [
   BASE_URL + "/artwork/tara-mcpherson-the-days-eye-trance-2",
@@ -515,7 +516,7 @@ var fetch = function (callback) {
     console.log('+');
     setTimeout(function() {
       // var url = _.sample(URLS)
-      var url = 'http://ezel-leak.herokuapp.com';
+      // var url = 'http://ezel-leak.herokuapp.com';
       console.log('-', url);
       superagent
         .get(url)

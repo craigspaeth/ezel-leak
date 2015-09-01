@@ -8,7 +8,6 @@ require('newrelic');
 var express = require('express'),
     setup = require('./lib/setup'),
     heapdump = require('heapdump'),
-    memwatch = require('memwatch-next'),
     http = require('http');
 
 http.globalAgent.maxSockets = Number.MAX_VALUE;
