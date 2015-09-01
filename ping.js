@@ -512,7 +512,7 @@ var superagent = require('superagent'),
     _ = require('underscore');
 
 var fetch = function (callback) {
-  async.times(40 + Math.round(Math.random() * 40), function(n, next) {
+  async.times(50 + Math.round(Math.random() * 50), function(n, next) {
     console.log('+');
     setTimeout(function() {
       // var url = _.sample(URLS)

@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node index.js"
+    "start": "node --max_old_space_size=256 index.js"
   },
   "dependencies": {
     "backbone": "*",
