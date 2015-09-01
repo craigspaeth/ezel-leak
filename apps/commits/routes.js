@@ -3,6 +3,7 @@
 //
 
 var Commits = require('../../collections/commits');
+Commits.prototype.sync = require('../../lib/supersync');
 
 exports.index = function(req, res, next) {
   var commits = new Commits(null, {
