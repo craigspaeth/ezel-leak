@@ -6,12 +6,13 @@ sync.timeout = 60000
 Commits.prototype.sync = sync;
 http.globalAgent.maxSockets = Number.MAX_VALUE;
 
-var start = process.memoryUsage().heapUsed;
-console.log('Start', start);
-async.timesLimit(10000, 100, function(n, next) {
+var startMemory = process.memoryUsage().heapUsed;
+var startTime = new Date().getTime();
+async.timesLimit(1000, 100, function(n, next) {
   var commits = new Commits([], { owner: 'foo', repo: 'bar' });
   commits.url = 'http://localhost:4000/repos/artsy/bar/commits';
   commits.fetch({ success: function() { next() } });
 }, function() {
-  console.log('End', process.memoryUsage().heapUsed - start);
+  console.log('Memory:', process.memoryUsage().heapUsed - startMemory);
+  console.log('Time:', new Date().getTime() - startTime);
 });
