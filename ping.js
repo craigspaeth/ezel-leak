@@ -1,6 +1,11 @@
 //
 // Pings the app around the rate of Force in production (30 rps)
 //
+<<<<<<< HEAD
+=======
+
+var url = process.argv[2]
+>>>>>>> 19d6501fbd808ed9f5fb060a3e10285f7a836a45
 var BASE_URL = 'https://microgravity-leak2.herokuapp.com';
 var URLS = [
   BASE_URL + "/artwork/tara-mcpherson-the-days-eye-trance-2",
@@ -510,10 +515,14 @@ var superagent = require('superagent'),
     _ = require('underscore');
 
 var fetch = function (callback) {
-  async.times(20 + Math.round(Math.random() * 20), function(n, next) {
+  async.times(50 + Math.round(Math.random() * 50), function(n, next) {
     console.log('+');
     setTimeout(function() {
+<<<<<<< HEAD
       var url = _.sample(URLS)
+=======
+      // var url = _.sample(URLS)
+>>>>>>> 19d6501fbd808ed9f5fb060a3e10285f7a836a45
       // var url = 'http://ezel-leak.herokuapp.com';
       console.log('-', url);
       superagent

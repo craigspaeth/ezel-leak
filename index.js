@@ -8,7 +8,6 @@ require('newrelic');
 var express = require('express'),
     setup = require('./lib/setup'),
     heapdump = require('heapdump'),
-    memwatch = require('memwatch-next'),
     http = require('http');
 
 http.globalAgent.maxSockets = Number.MAX_VALUE;
@@ -21,18 +20,4 @@ setup(app);
 app.listen(process.env.PORT, function() {
   console.log('Listening on port ' + process.env.PORT);
   if(process.send) process.send('listening');
-});
-
-// Logs memory usage
-var log = function() {
-  console.log('memory ', process.memoryUsage());
-}
-setInterval(log, 1000);
-
-// Memwatch
-memwatch.on('leak', function(info) {
-  console.log('leak ', info);
-});
-memwatch.on('stats', function(stats) {
-  console.log('stats ', stats);
 });

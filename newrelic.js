@@ -8,7 +8,7 @@ exports.config = {
   /**
    * Array of application names.
    */
-  app_name: ['ezel-leak'],
+  app_name: [process.env.APP_NAME],
   /**
    * Your New Relic license key.
    */
