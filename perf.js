@@ -1,7 +1,7 @@
 var async = require('async');
 var http = require('http');
 var Commits = require('./collections/commits');
-var sync = require('./lib/' + process.argv[2] + '.js');
+var sync = require('./lib/supersync' + process.argv[2] + '.js');
 sync.timeout = 60000
 Commits.prototype.sync = sync;
 http.globalAgent.maxSockets = Number.MAX_VALUE;
