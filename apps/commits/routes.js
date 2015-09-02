@@ -3,7 +3,7 @@
 //
 
 var Commits = require('../../collections/commits');
-Commits.prototype.sync = require('../../lib/supersync2');
+Commits.prototype.sync = require('../../lib/supersync3');
 
 exports.index = function(req, res, next) {
   console.log('.')
